@@ -24,7 +24,7 @@ public class Aplicacion extends HttpServlet {
 
 	@Override
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Entrada salida otra vez");
+        System.out.println("Entrada salida otra vez y otra vez");
         response.getWriter().println("Salida y entrada GET webwebweb otra vez");  
         response.getWriter().flush();
     }
